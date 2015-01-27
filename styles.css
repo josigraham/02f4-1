@@ -1,6 +1,9 @@
-Body {
-    backgroundc-color:red;
-    color: #00ffff;
-   font-family: sans-serif;
-   
-}
+    body{
+      background-color:red;
+      color: #E80C7A;
+      font-family: sans-serif;
+    }
+    
+    h2{
+      color: #1FCCB2;
+    }
