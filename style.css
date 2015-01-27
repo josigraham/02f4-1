@@ -3,7 +3,12 @@
       color: #E80C7A;
       font-family: sans-serif;
     }
-    
+     h1{
+  font-size: 72px;
+  font-family: Georgia;
+  margin-top:  50px;
+}
     h2{
       color: #1FCCB2;
+     
     }
