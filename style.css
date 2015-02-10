@@ -127,52 +127,6 @@ footer {
 }
 
 
-/* Webfont link */
-@import url(http://fonts.googleapis.com/css?family=Unica+One);
-
-/* Plugin base styles */
-
-.slider { 
-  position: relative;
-  width: 100%; 
-  overflow: hidden; 
-}
-
-.slides { 
-  position: relative;
-  padding: 0;
-  list-style: none;
-  letter-spacing: 0;
-  word-spacing: 0;
-  font-size: 0;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translate3d(0,0,0);
-}
-
-.slides li { 
-  display: inline-block; 
-  -webkit-backface-visibility: hidden;
-}
-
-.slides li img { 
-  width: 100%; 
-  height: auto;
-}
-
-/* Non-plugin styles */
-
-* { 
-  margin: 0; 
-  padding: 0; 
-}
-
-body { 
-  position: relative;
-  width: 90%;
-  max-width: 600px; 
-  margin: 0 auto; 
-  font-family: 'Unica One', sans-serif;
-}
 
 .slide-nav { 
   position: absolute; 
