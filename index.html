@@ -2,8 +2,40 @@
 <html>
 <head>
 
-<title> ☁  Welcome </title>
+
 <link rel="icon" type="image/gif" href="http://s12.postimg.org/8zekol099/favicon1.gif"/>
+<script type="text/javascript">
+var rev = "fwd";
+function titlebar(val)
+{
+var msg = "☁  Welcome ";
+var res = " ";
+var speed = 100;
+var pos = val;
+msg = "☁  Welcome ";
+var le = msg.length;
+if(rev == "fwd"){
+if(pos < le){
+pos = pos+1;
+scroll = msg.substr(0,pos);
+document.title = scroll;
+timer = window.setTimeout("titlebar("+pos+")",speed);}
+else{
+rev = "bwd";
+timer = window.setTimeout("titlebar("+pos+")",speed);}}
+else{
+if(pos > 0){
+pos = pos-1;
+var ale = le-pos;
+scrol = msg.substr(ale,le);
+document.title = scrol;
+timer = window.setTimeout("titlebar("+pos+")",speed);}
+else{
+rev = "fwd";
+timer = window.setTimeout("titlebar("+pos+")",speed);
+}}}
+titlebar(0);
+</script>
 
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link href="style.css" rel="stylesheet"> 
