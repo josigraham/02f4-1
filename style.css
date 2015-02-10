@@ -112,11 +112,9 @@ transform: rotate(-9deg);
 footer {
   text-align: center;
   background: black;
-  margin: 0 -10px;
   color: white;
  }
  
 #footer a {
     text-decoration: none;
-    
 }
