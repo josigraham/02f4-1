@@ -113,5 +113,9 @@ footer {
   text-align: center;
   background: black;
   color: white;
+ }
  
+#footer a {
+    text-decoration: none;
+    
 }
