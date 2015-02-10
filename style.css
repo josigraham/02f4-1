@@ -44,10 +44,11 @@
     }
 
 #features {
-background-image: none;
-background-color:#000;
-height: 250px;
+  background-image: none;
+  background-color: #C0C0C0;
+  height: 250px;
 }
+
 
 p {
   color: #FFF;
@@ -61,14 +62,17 @@ p {
     p:hover{
 transform: rotate(-9deg);
 }
-    button{
-        color: #FFF;
-        background-color: #F00;
-        border: none;
-        border-radius: 3px;
-        padding: 5px;
-        margin-top: 40px;
-    }
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  margin-top: 40px;
+  opacity: .8;
+ 
+}
 
 #top a {
     text-decoration: none;
