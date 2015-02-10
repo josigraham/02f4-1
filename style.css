@@ -128,33 +128,4 @@ footer {
 
 
 
-.slide-nav { 
-  position: absolute; 
-  bottom: 20px;
-  right: 20px;
-  z-index: 1;
-}
 
-.slide-nav ul {
-  letter-spacing: 0;
-  word-spacing: 0;
-  font-size: 0;
-}
-
-.slide-nav li { display: inline-block; }
-
-.slide-nav li a {
-  display: block;
-  color: #444;
-  background: #FFF;
-  text-decoration: none;
-  border-radius: 50%;
-  width: 26px;
-  height: 26px;
-  line-height: 26px;
-  font-size: 12px;
-  text-align: center;
-  margin: 0 0 0 6px;
-}
-
-.slide-nav li a.active { color: #DEBB1E; }
