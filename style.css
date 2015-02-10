@@ -33,7 +33,7 @@
     }
     
     h2{
-      color: #00ffff;
+      color: #000000;
        font-family: 'Poiret One' , cursive;
       
     }
@@ -56,7 +56,7 @@
 p {
   color: #FFF;
   background-color:#E0E066;
-  font-family: Impact, Haettenschweiler, “Arial Bold”, sans-serif; "Poiret One", cursive;
+  font-family: Impact, Haettenschweiler, “Arial Bold”, sans-serif; 
   margin: 15px;
   padding: 20px;
   width: 200px;
