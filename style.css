@@ -43,11 +43,11 @@
         background-size: cover;
     }
 
-#features {
-  background-image: none;
-  background-color: Black;
-  height: 250px;
-}
+#features{
+background-image: none;
+background-color:#000;
+height: 250px;
+
 
 p {
   color: #FFF;
