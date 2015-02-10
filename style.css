@@ -108,4 +108,11 @@ transform: rotate(-9deg);
     -webkit-transition-duration: .4s;
     -moz-transition-duration: .4s;
     }
+    
+    footer {
+  text-align: center;
+  background: black;
+  margin: 0 -10px;
+  border: 2px solid #00ffff;
+}
   
