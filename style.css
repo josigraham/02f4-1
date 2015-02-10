@@ -111,8 +111,8 @@ transform: rotate(-9deg);
     
     footer {
   text-align: center;
-  background: black;
+  background: #000000;
   margin: 0 -10px;
-  border: 2px solid #00ffff;
+  border: 2px #00ffff;
 }
   
