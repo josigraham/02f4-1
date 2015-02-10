@@ -109,10 +109,9 @@ transform: rotate(-9deg);
     -moz-transition-duration: .4s;
     }
     
-    footer {
+footer {
   text-align: center;
-  background: #000000;
+  background: pink;
   margin: 0 -10px;
-  border: 2px #00ffff;
+  border: 2px solid deepPink;
 }
-  
